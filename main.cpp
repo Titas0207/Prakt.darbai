@@ -117,7 +117,7 @@ int main() {
                 kursas = INR_Pirkti;
             }
             double gauta = suma * kursas;
-            cout << "\n--- Pirkimo rezultatas ---" << endl;
+            cout << "--- Pirkimo rezultatas ---" << endl;
             cout << "Pradine suma: " << suma << " EUR" << endl;
             cout << "Pasirinkta valiuta: " << pavadinimas << endl;
             cout << "Gaunama suma: " << gauta << " " << pavadinimas << endl;
